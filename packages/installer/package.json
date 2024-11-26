@@ -1,0 +1,4 @@
+{"name":"installer","description":"Easy Installer using deno install", "scripts": { 
+  "install": "deno install || echo npm run-script deno_install first",
+  "install_deno": "curl -fsSL https://deno.land/install.sh | sh"
+}
